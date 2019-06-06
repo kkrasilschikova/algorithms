@@ -1,7 +1,7 @@
 package breadthfirstsearch
 
 /*
-BreadthFirstSearch finds the length os the shortest path between 2 points on graph
+BreadthFirstSearch finds the shortest path between 2 points on graph it it exists
 */
 func BreadthFirstSearch(graph map[string][]string, start string, finish string) bool {
 	queue := graph[start]
